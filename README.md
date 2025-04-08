@@ -1,5 +1,7 @@
 # Claude Code MCP
 
+[![smithery badge](https://smithery.ai/badge/@auchenberg/claude-code-mcp)](https://smithery.ai/server/@auchenberg/claude-code-mcp)
+
 Claude Code MCP is an implementation of [Claude Code](https://gist.github.com/transitive-bullshit/487c9cb52c75a9701d312334ed53b20c) as a [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server. This project allows you to use Claude Code's powerful software engineering capabilities through the standardized MCP interface.
 
 # ⚠️ DISCLAIMER ⚠️
@@ -41,6 +43,15 @@ By implementing Claude Code as an MCP server, we make its capabilities available
 
 ## Installation
 
+### Installing via Smithery
+
+To install Claude Code MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@auchenberg/claude-code-mcp):
+
+```bash
+npx -y @smithery/cli install @auchenberg/claude-code-mcp --client claude
+```
+
+### Installing Manually
 ```bash
 # Clone the repository
 git clone https://github.com/auchenberg/claude-code-mcp.git
